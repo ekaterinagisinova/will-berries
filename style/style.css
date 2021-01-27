@@ -1,9 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+.header{
+  padding: 15px 0;
+}
 .navigation{
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 .navigation-link{  
-  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
@@ -19,8 +29,7 @@
   border-radius: 20px;
   background: #4592FF;
   border: none;
-  color: #fff;
-  font-family: 'Lato', sans-serif;
+  color: #fff;  
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
@@ -30,6 +39,129 @@
   cursor: pointer;
 }
 
-.button-icon{
+.button-icon, .button-price{
   margin-right: 10px;
+}
+.button-icon:last-child{
+  margin-right: 0;
+  margin-left: 10px;
+}
+.slide-1{
+  background: #B4D1E0 url(../img/slide-imade-1.png) no-repeat top right 30%;
+
+}
+.slide{
+  padding-top: 90px;
+  padding-bottom: 110px;  
+}
+.label{
+  background: #3DC47E;
+  border-radius: 3px;
+  padding: 5px 12px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+}
+.slide-title{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-family: 'Roboto Slab', serif;
+  color: #4B5157;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 70px;
+}
+.slide-description{
+  max-width: 335px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4B5157;
+}
+.slider{
+  position: relative;
+}
+.slider-nav{
+  position: absolute;  
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.slider-button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.card{
+  min-height: 370px;
+  border-radius: 10px;
+  padding-top: 60px;
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-bottom: 80px;  
+}
+.card-1{
+  background: #e3e2e3 url('../img/card-image-01.jpg') no-repeat top right;
+  background-size: cover; 
+}
+.card-2{
+  background: #e3e2e3 url('../img/card-image-02.jpg') no-repeat top right;
+  background-size: cover; 
+}
+.card-3{
+  padding-top: 35px;
+  background: #ccd5e6 url('../img/card-image-03.png') no-repeat top right 10%;
+  background-size: сontain; 
+}
+.card-4{
+  padding-top: 35px;
+  padding-left: 25px;
+  background: #FF4F52 url('../img/card-image-04.png') no-repeat top right;
+  background-size: сontain; 
+}
+.card-title{
+  max-width: 222px;
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #262D33;
+  margin: 0;
+}
+.card-text{
+  max-width: 176px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4B5157;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.card-price{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* ---Options--- */
+.text-light{
+  color: white;
+}
+.card-title.text-large{
+  max-width: 420px;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.card-text.text-large{
+  max-width: 320px;
+}
+
+
+button{
+  outline: none;
 }
