@@ -48,11 +48,21 @@ body{
 }
 .slide-1{
   background: #B4D1E0 url(../img/slide-imade-1.png) no-repeat top right 30%;
+}
 
+.slide-2{
+  background: yellowgreen url(../img/slide-imade-1.png) no-repeat top right 30%;
+}
+.slide-3{
+  background: burlywood url(../img/slide-imade-1.png) no-repeat top right 30%;
 }
 .slide{
   padding-top: 90px;
   padding-bottom: 110px;  
+  display: none;
+}
+.activeSlide {
+  display: block;
 }
 .label{
   background: #3DC47E;
