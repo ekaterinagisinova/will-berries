@@ -23,6 +23,12 @@ body{
   letter-spacing: 0.5px;
   color: #939699;
 }
+.navigation-link:hover{
+  color: black;
+}
+.navigation-link:active{
+  opacity: 0.7;
+}
 
 .button{
   padding: 10px 20px;
@@ -37,6 +43,12 @@ body{
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+.button:hover{
+  background: blueviolet;
+}
+.button:active{
+  background: rgba(137, 43, 226, 0.363);
 }
 
 .button-icon, .button-price{
@@ -102,6 +114,13 @@ body{
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+.slider-button :hover{
+  box-shadow: 0px 5px 5px 2px rgba(34, 60, 80, 0.2);
+  border-radius: 50%;
+}
+.slider-button :active{
+  opacity: 0.7;
 }
 .card{
   min-height: 370px;
@@ -182,6 +201,9 @@ body{
   padding-right: 36px;
   padding-left: 36px;
 }
+.goods-card:hover{
+  filter: sepia();
+}
 .goods-card .label{
   position: absolute;
   top: 18px;
@@ -225,6 +247,7 @@ body{
 .footer-menu-item:not(:last-child){
   padding-right: 40px;
 }
+
 .footer-menu-link{
   text-decoration: none;
   color: #fff;
@@ -232,6 +255,12 @@ body{
   font-weight: 900;
   font-size: 14px;
   line-height: 20px;
+}
+.footer-menu-link:hover{
+  opacity: 0.7;
+}
+.footer-menu-link:active{
+  opacity: 0.3;
 }
 .footer-text{
   color: #E7D9FF;
@@ -243,6 +272,12 @@ body{
 .social-link{
   margin-left: 15px; 
   text-decoration: none;
+}
+.social-link:hover{
+  opacity: 0.7;
+}
+.social-link:active{
+  opacity: 0.3;
 }
 .footer-line{
   opacity: 0.5;
@@ -280,3 +315,4 @@ body{
 button{
   outline: none;
 }
+
